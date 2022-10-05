@@ -27,5 +27,102 @@ a {
 .nav-link {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    color: #f0f008c9;
+    color: #f45151;
 }
+.u-align-center {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.u-shape-1 {
+    height: 509px;
+    margin-top: 148px;
+    margin-bottom: 0;
+    background-image: none;
+    color: #111111;
+    background-color: #fbb8b8;
+}
+.u-list {
+    display: flex;
+    flex-direction: column;
+    width: 1033px;
+    margin: -609px auto 3em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.u-repeater-1 {
+    grid-template-columns: repeat(3, calc(33.3333% - 22px));
+    min-height: 515px;
+    grid-gap: 33px;
+    display: grid;
+}
+.u-repeater-item {
+    display: flex;
+    position: relative;
+}
+.u-container-layout {
+    border-radius: 20px !important;
+    color: #111111;
+    background-color: #ffffff;
+    padding: 30px 25px;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 15%);
+}
+.u-image-1 {
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    border: 3px solid #fbb8b8;
+    background-position: 50% 50%;
+    margin: 69px auto 0;
+}
+.u-text-1 {
+    font-style: normal;
+    font-weight: 700;
+    margin: 60px auto 0;
+    color: #f45151 !important;
+    font-size: 3.75rem;
+    line-height: 1.1;
+}
+.u-text-2 {
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 40px auto 0;
+}
+.u-text-3 {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin: 0;
+}
+.u-text-4 {
+    margin: 14px auto 0;
+}
+@media (max-width: 991px){
+.u-list-1 {
+    width: 640px;
+    margin-top: -1157px;
+}
+}
+@media (max-width: 575px)
+{
+ .u-list-1 {
+    width: 273px;
+    margin-top: -1587px;
+}
+}
+@media (max-width: 991px){
+.u-repeater-1 {
+    grid-template-columns: repeat(2, calc(33% - 16.5px));
+    min-height: 1065px;
+}}
+@media (max-width: 767px){
+.u-repeater-1 {
+    grid-template-columns: 40%;
+    min-height: 1317px;
+}}
+.checked {
+    color: orange;
+  }
